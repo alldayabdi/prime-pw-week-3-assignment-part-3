@@ -90,3 +90,10 @@ for (let i = 0; i < supplyChanges.length; i++) {
 //    no more boxes can be filled.
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
+let partsTotal = 572;
+let partseachbox = 7;
+let partsLeft = 0 ;
+while (partsTotal >= 6) {
+  partsTotal -= partseachbox;
+  console.log(partsTotal);
+  }
